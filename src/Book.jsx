@@ -2,7 +2,7 @@ import React from "react";
 
 const Book = () => {
     return (
-        <section className=" flex items-center justify-center flex-col h-screen  bg-gray-200 mt-12">
+        <section className=" flex items-center justify-center flex-col h-screen  bg-gray-200 py-12">
             <div className="bg-white p-8 rounded-lg shadow-md w-96">
                 <h1 className="font-bold text-3xl mb-6">For Booking Process</h1>
 

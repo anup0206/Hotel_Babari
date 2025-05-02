@@ -1,1 +1,29 @@
 @import "tailwindcss";
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #root {
+    margin: 0;
+    padding: 0;
+  }
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1 0 auto; /* Allows main content to grow but not shrink below content height */
+  }
+  
+  footer {
+    flex-shrink: 0; /* Prevents footer from shrinking */
+  }
