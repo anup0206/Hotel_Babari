@@ -5,6 +5,7 @@ import Service from "./Service.jsx";
 import Gallery from "./Gallery.jsx";
 import Book from "./Book.jsx";
 import Contact from "./Contact.jsx";
+import About from "./About.jsx";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
