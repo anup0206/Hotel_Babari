@@ -21,7 +21,7 @@ const Hero = () => {
       {/* Foreground content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-white px-4 text-center backdrop-brightness-50">
         <h2 className="text-7xl font-bold mb-4">Welcome to Hotel Babari</h2>
-        <p className="text-lg mb-1">Experience luxury and comfort like never before.</p>
+        <p className="text-lg md:text-xl mb-1">Experience luxury and comfort like never before.</p>
         <p className="text-lg md:text-xl lg:text-md">Sainamaina-02, Sorauli</p>
         <p className="text-lg md:text-xl lg:text-md">Rupandehi, Nepal</p>
 

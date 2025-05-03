@@ -2,7 +2,7 @@ import React from "react";
 import logo from "./assets/logo.jpg"
 
 const Navbar = () => {
-  const navitems = ["Home", "Services", "Gallery", "Book now", "Contact us"];
+  const navitems = ["Home", "Services", "Gallery", "Book now", "About us"];
 
   return (
     <section className="absolute sticky top-0 left-0 w-full z-50 bg-red-600 bg-opacity-50 py-4 mb-0">
