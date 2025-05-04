@@ -26,7 +26,7 @@ const Navbar = () => {
     }
   ]
   return (
-    <section className="absolute sticky top-0 left-0 w-full z-50 bg-red-600 bg-opacity-50 py-4 mb-0">
+    <section className="absolute sticky top-0 left-0 w-full z-50 bg-[#973e2c] bg-opacity-50 py-4 mb-0">
     <div className="container mx-auto flex items-center justify-between">
       <img src={logo} alt="Logo" className="h-12 rounded-full mx-10" />
       <ul className="flex space-x-6">
