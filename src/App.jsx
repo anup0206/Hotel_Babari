@@ -1,14 +1,14 @@
 import React from "react";
 import Navbar from "./Navbar.jsx";
-import Hero from "./Hero.jsx";
 import Service from "./Service.jsx";
-import Gallery from "./Gallery.jsx";
+
 import Book from "./Book.jsx";
 import Contact from "./Contact.jsx";
-import About from "./About.jsx";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import Home from "./Home.jsx"
+import Gallery from "./Gallery.jsx";
+import About from "./About.jsx";
 
 const App = () => {
   return (
@@ -16,12 +16,12 @@ const App = () => {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Hero />} />
+        <Route path="/" element={<Home />} />
         <Route path="/book" element={<Book />} />
+        <Route path="/service" element={<Service />}></Route>
+        <Route path="/gallery" element={<Gallery />}></Route>
+        <Route path="/about" element={<About />}></Route>
       </Routes>
-      <Service />
-      <Gallery />
-      <About />
       <Contact />
     </Router>
   );
